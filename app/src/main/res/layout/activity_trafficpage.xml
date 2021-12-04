@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/similar1"
+    tools:context=".trafficpage">
+
+
+
+    <ImageView
+        android:id="@+id/back_pressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:src="@drawable/back_btn" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="290dp"
+
+        android:text="Logout" />
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/logf"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Enter Vehicle Number Plate Id"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/teal_200"
+
+            android:text="Search"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginTop="190dp"
+
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="373dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Owner Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvownerName"
+                android:layout_width="196dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="65dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="368dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/line2"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Registering Authority"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvregisterAuthority"
+                android:layout_width="186dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="366dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/line3">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Vehicle Class"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvvehicleClass"
+                android:layout_width="192dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="70dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line5"
+            android:layout_width="371dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/line4">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="RC Status"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRCstatus"
+                android:layout_width="189dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="95dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/line6"
+            android:layout_width="368dp"
+
+            android:layout_height="50dp"
+            android:layout_below="@+id/line5">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Insurance Valid Upto Date"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvinsuranceValidupto"
+                android:layout_width="193dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line7"
+            android:layout_width="368dp"
+            android:layout_height="50dp"
+
+            android:layout_below="@+id/line6">
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Vehicle Age"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvvehicleAge"
+                android:layout_width="193dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="90dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line8"
+            android:layout_width="368dp"
+            android:layout_height="50dp"
+
+            android:layout_below="@+id/line7"
+            android:layout_marginTop="-9dp">
+
+            <TextView
+                android:id="@+id/textViedfs"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Registration Date"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvregistrationDate"
+                android:layout_width="193dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="40dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/line9"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/line8"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="230dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:background="@color/teal_200"
+                android:text="Find Previous Owner"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

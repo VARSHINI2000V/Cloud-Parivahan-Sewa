@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/similar1"
+    tools:context=".trafficpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:fontFamily="@font/alegreya_sans_sc_bold"
+    android:text="Previous Owner Details"
+    android:textSize="40sp"
+        android:layout_marginLeft="30dp"
+    android:textColor="@color/black"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginTop="190dp"
+
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="373dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Second Owner Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvownerName"
+                android:layout_width="196dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="65dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="368dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/line1"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="Second owner Aadhaar Number"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvregisterAuthority"
+                android:layout_width="186dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="373dp"
+        android:layout_height="50dp"
+            android:layout_below="@+id/line2">
+
+        <TextView
+            android:id="@+id/textView181"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:text="Third Owner Name"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvownerName1"
+            android:layout_width="196dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="65dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line4"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/line3"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/textView191"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:text="Third owner Aadhaar Number"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvregisterAuthority1"
+            android:layout_width="186dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
